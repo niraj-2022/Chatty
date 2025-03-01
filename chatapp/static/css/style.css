@@ -1,0 +1,82 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Ubuntu';
+}
+
+section {
+    padding: 0 5% 0;
+}
+
+hr {
+    border-color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    opacity: .5;
+}
+
+/* Navbar */
+.navbar-brand {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* Common Contact List and Chats section attributes*/
+.chat-send-block,
+.contact-list {
+    border-radius: 16px;
+    border-width: 3px;
+    border-color: white;
+    border-style: solid;
+    height: 525px;
+    margin-bottom: 20px;
+}
+
+.contact-list {
+    overflow: auto;
+}
+
+/* Contacts List */
+.contact-item {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 9px;
+}
+
+.contact-item:hover {
+    background-color: #dfdfdf48;
+    cursor: default;
+}
+
+.profile-pic {
+    width: 40px;
+    border-radius: 100%;
+    margin-left: 5px;
+}
+
+.profile-name {
+    padding-left: 10px;
+}
+
+/* Chat List */
+#chat-block {
+    overflow: auto;
+    height: 416px;
+}
+
+.friend-info {
+    margin-top: 5px;
+    margin-left: 40px;
+}
+
+.chat-bubble {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.chat-msg {
+    font-size: 1.1rem;
+    display: inline-block;
+    padding: 7px 25px;
+    border-radius: 12px;
+}
