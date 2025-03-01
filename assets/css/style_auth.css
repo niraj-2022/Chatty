@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'quicksand', Arial, Helvetica, sans-serif;
+    background-color: #cccccc;
+    background-size: 100%;
+}
+
+.CompleteForm button {
+    cursor: auto;
+    font-size: 1em;
+    z-index: 2;
+    position: relative;
+    outline: none;
+    background: white;
+    transition: 0.3s;
+}
+
+.CompleteForm .login,
+.CompleteForm .signup {
+    color: white;
+    background: #611fd3;
+}
+
+.CompleteForm {
+    margin-top: 4em;
+    left: 50%;
+    transform: translateX(-50%);
+    background: white;
+    border-radius: 20px;
+    position: relative;
+    width: 530px;
+    height: auto;
+}
+
+.CompleteForm .login:hover,
+.CompleteForm .signup:hover {
+    background: rgb(52, 43, 43);
+}
+
+.form_1 {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.CompleteForm .btn {
+    border-radius: 20px;
+    border: none;
+    font-weight: bold;
+    font-size: 1.2em;
+    transition: 0.2s;
+    border: 1px solid #ebebeb;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+    padding: 0.8em 1em 0.8em 1em !important;
+}
+
+#TG_login {
+    background: #611fd3;
+    color: #ffff;
+}
+
+.CompleteForm form {
+    position: relative;
+    width: 90%;
+    height: auto;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#login_1,
+#signup_1 {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding-bottom: 1em;
+}
+
+#signup_1 {
+    display: none;
+}
+
+.form_1 button {
+    width: 50%;
+    float: left;
+    padding: 1.5em;
+    margin-bottom: 1.5em;
+    border: none;
+    transition: 0.2s;
+    font-size: 1.1em;
+    font-weight: bold;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+#login_1 button,
+#signup_1 button {
+    width: 100%;
+    margin-top: 0.5em;
+    padding: 0.6em;
+}
+
+.CompleteForm input {
+    position: relative;
+    width: 100%;
+    font-size: 1em;
+    padding: 1.2em 1.7em 1.2em 1.7em;
+    margin-top: 0.6em;
+    margin-bottom: 0.6em;
+    border-radius: 20px;
+    border: none;
+    background: #ebebeb;
+    outline: none;
+    font-weight: bold;
+    transition: 0.4s;
+}
+
+.CompleteForm input:focus,
+.CompleteForm input:active {
+    transform: scaleX(1.02);
+}
+
+.CompleteForm input::-webkit-input-placeholder {
+    color: #222;
+}
+
+.CompleteForm p {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.CompleteForm p a {
+    color: #611fd3;
+    transition: 0.2s;
+    text-decoration: none;
+}
+
+.CompleteForm p a:hover {
+    color: #231414;
+}
+
+.CompleteForm i {
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    transform: translateX(-10%) translateY(-50%);
+}
